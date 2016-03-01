@@ -1,0 +1,20 @@
+
+	.first-photo {
+		width: 100%;
+	}
+
+	.additional-photo {
+		width: 100%;
+	}
+
+
+
+@media (min-width: 767px) {
+	.first-photo {
+		float: left; position: relative; width: 29%;
+	}
+
+	.additional-photo {
+		float: left; position: relative; padding-left: 20px; width: 29%;
+	}
+}

@@ -1,0 +1,49 @@
+.image-gallery {
+    display: block;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.image-gallery .image-gallery-metabar {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - (1.5em) * 2);
+    font-family: 'Open Sans';
+    font-style: italic;
+    background: rgba(0,0,0,.75);
+    font-size: 1.25rem;
+    color: #fff;
+    padding: .5em 1.5em;
+    z-index: 1;
+}
+
+.image-gallery .image-gallery-photos .photo-box .photo-box-inner {
+    position: absolute;
+    overflow: hidden;
+}
+
+.image-gallery .image-gallery-photos--thumbnail .photo-box:nth-child(2) {
+    margin-right: 2px;
+    width: calc(50% - 2px);
+}
+
+.image-gallery .image-gallery-photos--thumbnail .photo-box {
+    display: block;
+    width: 50%;
+    padding-bottom: 30%;
+}
+
+.image-gallery .image-gallery-photos .photo-box {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.image-gallery .image-gallery-photos .photo-box .photo-box-inner .photo {
+    width: 100%;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+}
